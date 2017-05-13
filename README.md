@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
 
+## Generate Documentation
+
+Run `npm run compodoc` to generate documentation for the application and serve it at `http://localhost:8080`.  See [`Compodoc`'s website](https://compodoc.github.io/website/) for more.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
