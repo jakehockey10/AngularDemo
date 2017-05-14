@@ -7,10 +7,18 @@ import { ClarityModule } from 'clarity-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CardsExampleComponent } from './cards-example/cards-example.component';
+import { AlertComponent } from './alert/alert.component';
+import { HeaderComponent } from './header/header.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardsExampleComponent,
+    AlertComponent,
+    HeaderComponent,
+    SideNavComponent
   ],
   imports: [
     BrowserModule,
