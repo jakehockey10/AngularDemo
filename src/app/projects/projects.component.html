@@ -1,0 +1,7 @@
+<div class="card-columns">
+  <app-project-card
+    *ngFor="let project of projects | async"
+    [project]="project"
+    [routerLink]="['/projects', project.id]"
+  ></app-project-card>
+</div>

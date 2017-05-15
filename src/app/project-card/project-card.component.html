@@ -1,0 +1,35 @@
+<div
+  class="card clickable"
+  [class.card-block]="!showImage()"
+>
+  <ng-container *ngIf="hasTitle()">
+    <ng-container *ngIf="showImage(); then titleCardBlock else titleTextOnly"></ng-container>
+    <ng-template #titleCardBlock>
+      <div class="card-block">
+        <h3 class="card-title">{{project.name}}</h3>
+      </div>
+    </ng-template>
+    <ng-template #titleTextOnly>
+      <h3 class="card-title">{{project.name}}</h3>
+    </ng-template>
+  </ng-container>
+  <div
+    *ngIf="showImage()"
+    class="card-img"
+  >
+    <img src="{{project.image}}">
+    </div>
+    <ng-container *ngIf="hasDescription()">
+      <ng-container *ngIf="!showImage(); then descriptionTextOnly else descriptionCardBlock"></ng-container>
+      <ng-template #descriptionCardBlock>
+        <div class="card-block">
+          <p class="card-text">
+            {{project.description}}
+          </p>
+        </div>
+      </ng-template>
+      <ng-template #descriptionTextOnly>
+        <p class="card-text">{{project.description}}</p>
+      </ng-template>
+    </ng-container>
+    </div>

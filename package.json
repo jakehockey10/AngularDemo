@@ -13,6 +13,7 @@
   },
   "private": true,
   "dependencies": {
+    "@agm/core": "^1.0.0-beta.0",
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
@@ -22,11 +23,14 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "@types/googlemaps": "^3.26.11",
     "@webcomponents/custom-elements": "^1.0.0-alpha.3",
     "clarity-angular": "^0.9.4-patch",
     "clarity-icons": "^0.9.4-patch",
     "clarity-ui": "^0.9.4-patch",
     "core-js": "^2.4.1",
+    "holderjs": "^2.9.4",
+    "prismjs": "^1.6.0",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   },
