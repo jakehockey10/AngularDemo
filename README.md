@@ -10,6 +10,9 @@ Run `npm run compodoc` to generate documentation for the application and serve i
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Debugging in Visual Studio Code
+Run `ng serve` for a dev server. Press <kbd>F5</kbd> to launch chrome and attach the debugger.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
